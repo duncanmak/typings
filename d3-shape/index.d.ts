@@ -1,4 +1,4 @@
-declare module 'd3-shape' {
+declare namespace D3Shape {
     export function line<T>(): Line<T>;
 
     interface Line<T> {
@@ -32,3 +32,5 @@ declare module 'd3-shape' {
         context();
     }
 }
+
+export = D3Shape;
